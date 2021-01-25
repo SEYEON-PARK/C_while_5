@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	int a, A, b = 1;
+	int a, A, b = 1; // ì„ ì–¸
 
-	printf("¾çÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. : ");
+	printf("ì–‘ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤. : ");
 	scanf_s("%d", &a);
 
 	A = a;
@@ -15,7 +15,7 @@ int main(void)
 			a--;
 	}
 
-	printf("%d!Àº %dÀÔ´Ï´Ù.\n", A, b);
+	printf("%d!ì€ %dì…ë‹ˆë‹¤.\n", A, b);
 
 	return 0;
 }
