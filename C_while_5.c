@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int a, A, b = 1; // 선언
+	int a, A, b = 1; // 변수 선언
 
 	printf("양의 정수를 입력하시오. : ");
 	scanf_s("%d", &a);
