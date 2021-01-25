@@ -5,7 +5,7 @@ int main(void)
 	int a, A, b = 1; // 변수 선언
 
 	printf("양의 정수를 입력하시오. : ");
-	scanf_s("%d", &a);
+	scanf_s("%d", &a); // 정수 입력받기
 
 	A = a;
 
@@ -15,7 +15,7 @@ int main(void)
 			a--;
 	}
 
-	printf("%d!은 %d입니다.\n", A, b);
+	printf("%d!은 %d입니다.\n", A, b); // 결과 출력하기
 
 	return 0;
 }
